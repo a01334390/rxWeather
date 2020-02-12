@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var cityNameTextField: UITextField!
+    
+    @IBOutlet weak var temperatureLabel: UILabel!
+    
+    @IBOutlet weak var humidtyLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
