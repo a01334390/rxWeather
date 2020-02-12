@@ -52,6 +52,8 @@ class ViewController: UIViewController {
         }
         let resource = Resource<WeatherResult>(url: url)
         URLRequest.load(resource: resource)
+            .observeOn(MainScheduler.instance)
+            .catchErrorJustReturn(WeatherResult.empty)
             .subscribe(onNext: { result in
                 let weather = result.main
                 self.displayWeather(weather)

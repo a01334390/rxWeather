@@ -11,6 +11,6 @@ import Foundation
 
 extension URL {
     static func urlForWeatherAPI(city:String) -> URL? {
-        return URL(string: "http://api.openweathermap.org/data/2.5/weather?q=\(city)&APPID={APIKEY}")
+        return URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&APPID=a2a95e747f925f6474f56397e8d7cc36")
     }
 }
