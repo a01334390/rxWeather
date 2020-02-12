@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     
     private func fetchWeather(by city: String) {
         guard let cityEncoded = city.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed),
-            let url = URL(string: cityEncoded) else {
+            let url = URL.urlForWeatherAPI(city: cityEncoded) else {
                 return
         }
         let resource = Resource<WeatherResult>(url: url)

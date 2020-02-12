@@ -16,6 +16,7 @@
 		BD3BEA7423F39A890086EA43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3BEA7223F39A890086EA43 /* LaunchScreen.storyboard */; };
 		BD3BEA7F23F39C300086EA43 /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3BEA7E23F39C300086EA43 /* WeatherResult.swift */; };
 		BD3BEA8223F39D8C0086EA43 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3BEA8123F39D8C0086EA43 /* URLRequest+Extensions.swift */; };
+		BD3BEA8423F3A1A90086EA43 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3BEA8323F3A1A90086EA43 /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BD3BEA7523F39A890086EA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3BEA7E23F39C300086EA43 /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
 		BD3BEA8123F39D8C0086EA43 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		BD3BEA8323F3A1A90086EA43 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				BD3BEA8123F39D8C0086EA43 /* URLRequest+Extensions.swift */,
+				BD3BEA8323F3A1A90086EA43 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3BEA6C23F39A870086EA43 /* ViewController.swift in Sources */,
+				BD3BEA8423F3A1A90086EA43 /* URL+Extensions.swift in Sources */,
 				BD3BEA7F23F39C300086EA43 /* WeatherResult.swift in Sources */,
 				BD3BEA6823F39A870086EA43 /* AppDelegate.swift in Sources */,
 				BD3BEA8223F39D8C0086EA43 /* URLRequest+Extensions.swift in Sources */,
